@@ -1,0 +1,17 @@
+{
+  "name": "rahl-dev-ai-server",
+  "version": "1.0.0",
+  "description": "Backend for RAHL Dev AI — generates Node.js projects using GPT",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^4.0.0"
+  }
+}
